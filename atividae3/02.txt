@@ -1,0 +1,7 @@
+Em síntese, coesão trata-se de criar classes que sirvam a um único e bem definido propósito,
+evitando acúmulo de atributos e métodos desnecessários. Um código coeso acaba por ser maior, 
+mas mais organizado e legível, facilitando futuras correções. Uma analogia feita é a de uma caixa 
+de ferramentas,onde um código coeso é como uma caixa cheia de compartimentos e identificações, enquanto 
+um código não coeso é como uma grande caixa com todas as ferramentas. 
+É válido ressaltar também a existência de diferentes níveis de coesão, 
+que definem o quão bem sucedido um código é neste quesito.
