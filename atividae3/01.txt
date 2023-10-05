@@ -1,0 +1,4 @@
+Responsabilidade de uma classe trata das funções destas, dos atributos aos métodos, portanto coesão 
+tem relação com tais responsabilidades pois é um conceito que visa limitar as mesmas, para que a classe
+lide apenas com àquilo que está diretamente relacionada a ela, tornando o código mais encapsulado, de fácil 
+leitura e correção.
