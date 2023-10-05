@@ -1,0 +1,3 @@
+O encapsulamento evita que um programa torne-se tão interdependente, pois os
+atributos e métodos de determinada classe não são de fácil acesso à outra, elas
+portanto acabam por possuir uma ligação menos intrínseca.
