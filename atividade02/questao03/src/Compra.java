@@ -4,9 +4,4 @@ public class Compra {
     public void realizarCompra() {
         // lógica de compra
     }
-
-    public void atualizarSaldo() {
-        // atualizar saldo do cliente
-    }
-
 }
