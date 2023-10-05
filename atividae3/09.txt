@@ -1,0 +1,3 @@
+Zerar o acoplamento é uma tarefa difícil, ou mesmo impossível, pois, mesmo em softwares mais simples, existe algum nível de 
+dependência entre as classes, ou seja, algum nível de acoplamento, essencial (na medida em que não prejudica a legibilidade e 
+atualização deste) para o funcionamento do todo.
