@@ -1,0 +1,2 @@
+Trata-se da interdependência entre classes, de uma classe depender de atributos e métodos de outra
+para pleno funcionamento, como se ambas fossem, de certa forma, intrínsecas.
