@@ -1,3 +1,6 @@
 O encapsulamento evita que um programa torne-se tão interdependente, pois os
 atributos e métodos de determinada classe, sendo privados, não são de fácil acesso à outra, elas
 portanto acabam por possuir uma ligação menos intrínseca.
+No exemplo apresentado no livro, o não encapsulamento dos atributos acarretou na obrigatoriedade
+de alterar todas as classes que utilizaram tais atributos, o que não ocorreria se desde o princípio 
+o código fosse feito da maneira correta.
