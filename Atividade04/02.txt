@@ -1,0 +1,6 @@
+a imagem que compara um pato real e um pato de brinquedo, com os dizeres 
+"If It Looks Like A Duck, Quacks Like A Duck, But Needs Batteries - You Probably 
+Have The Wrong Abstraction". O que a imagem busca inferir é que uma classe
+herdada deve ser capaz de substituir a super classe, se ela 
+necessita de um "a mais", ela portanto foge do princípio de Liskov, podendo 
+acarretar em problemas no código.

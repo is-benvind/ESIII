@@ -1,0 +1,2 @@
+Em homenagem a cientista da computação Barbara Liskov, a qual fez importantes contribuições
+na definição dos princípios SOLID.
