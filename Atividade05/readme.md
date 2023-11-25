@@ -2,9 +2,9 @@
 
 ### 1. Qual a principal imagem relacionada ao princípio e qual a explicação sobre ela?
 
-A imagem em questão mostra um objeto com várias entradas USB e apenas um conector USB. Como é possível observar, tal configuração viola o ISP, pois demonstram um claro excesso de métodos (entradas) que não serão utilizadas. O ISP prega que uma interface não deve forçar uma classe a complementar coisas que não irá utilizar.
-
 <img src="https://miro.medium.com/v2/resize:fit:750/1*g6TcTe-lwlyYKbLSc0RYNw.jpeg" width="400">
+
+A imagem em questão mostra um objeto com várias entradas USB e apenas um conector. Como é possível observar, tal configuração viola o ISP, pois demonstram um claro excesso de métodos (entradas) que não serão utilizadas. O ISP prega que uma interface não deve forçar uma classe a implementar coisas que não irá utilizar, ou seja, tal princípio defende interfaces mais "limpas", com métodos mais específicos, e não uma coletânea destes.
 
 ### 2. Por que devemos segregar implementações através do uso de interfaces?
 
@@ -29,9 +29,9 @@ Classes com métodos que não utiliza apenas infla o código e dificulta a manut
 
 ### 5. Qual a principal imagem relacionada ao princípio e qual a explicação sobre ela?
 
-Blablabla
-
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*Fm_6woXqebKY0zOokzEt7g.jpeg" width="400">
+
+O DIP ou Dependency Inversion Principle (Princípio da Inversão de Dependência) prega que devemos depender de abstrações e não de implementações. Na imagem em questão, a tomada representa a abstração, a interface; enquanto a sugestão de soldar a lâmpada diretamente na parede representa classes concretas, feitas com baixo nível de abstração, portanto, mais acopladas.
 
 ### 6. O que você entende por programar para Interfaces?
 
