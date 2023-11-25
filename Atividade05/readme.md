@@ -12,7 +12,7 @@ Isso facilita a manutenção e evolução do sistema, além de promover a reutil
 
 ### 3. Podemos dizer que esse princípio é correlato ao Single Responsability Principle pelo fato de que classes e interfaces devem ter um único “foco” (SRP) e que as interfaces com métodos não correlatos devem ser segregadas (ISP)?
 
-Sim, pois ambas partem do mesmo princípio, porém são aplicadas em contextos distintos. O SRP é aplicado a classes concretas e o ISP a interfaces, mas no fim, ambos vizam tornar as partes do código mais específicas e pouco acopladas.
+Sim, pois ambas partem do mesmo princípio, porém são aplicadas em contextos distintos. O SRP é aplicado a classes concretas e o ISP a interfaces, mas no fim, ambos vizam tornar diferentes partes do código mais específicas e pouco acopladas.
 
 ### 4. Comente as seguintes frases à luz do ISP:
 #### a. “Nenhum cliente deve ser forçado a depender de métodos que ele não usa”;
