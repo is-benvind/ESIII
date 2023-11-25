@@ -12,9 +12,7 @@ Isso facilita a manutenção e evolução do sistema, além de promover a reutil
 
 ### 3. Podemos dizer que esse princípio é correlato ao Single Responsability Principle pelo fato de que classes e interfaces devem ter um único “foco” (SRP) e que as interfaces com métodos não correlatos devem ser segregadas (ISP)?
 
-Sim, pois o ISP prega que uma interface não deve forçar uma classe a complementar coisas que não irá utilizar, ou seja, uma interface deve ter um único foco.
-
-De certa forma sim, pois ambas partem do mesmo princípio, porem são aplicadas em contextos distintos. O SRP é aplicado em classes e o ISP em interfaces.
+Sim, pois ambas partem do mesmo princípio, porém são aplicadas em contextos distintos. O SRP é aplicado a classes concretas e o ISP a interfaces, mas no fim, ambos vizam tornar as partes do código mais específicas e pouco acopladas.
 
 ### 4. Comente as seguintes frases à luz do ISP:
 #### a. “Nenhum cliente deve ser forçado a depender de métodos que ele não usa”;
@@ -23,7 +21,7 @@ Neste contexto, "cliente" não se refere ao usuário final, mas sim às classes 
 
 #### b. “Classes não devem ser forçadas a implementar interfaces que não usam”;
 
-Classes com métodos que não utiliza apenas infla o código e dificulta a manutenção do sistema, comprometendo também sua legibilidade.
+Classes com métodos que não utiliza apenas inflam o código e dificultam a manutenção do sistema, comprometendo também sua legibilidade.
 
 ### Pesquise a respeito do Dependency Invertion Principle (DIP) e responda as questões abaixo:
 
@@ -45,12 +43,12 @@ Um exemplo seria a implementação de um sistema de autenticação que utiliza o
 
 https://pt.stackoverflow.com/questions/101692/como-funciona-o-padr%C3%A3o-repository
 
-Blablabla
+O padrão repository parte do princípio de abstrair a persistência de dados, sendo comum, mas não obrigatório, que ele seja implementado através de uma interface ou classe abstrata que estabelece o contrato básico do que pode ser feito para persistir tais dados, sendo esta a aplicabilidade do DIP neste contexto.
 
 ### 9. Você acha que esse princípio deveria ser um dos primeiros em um eventual “check-list” de princípios SOLID a aplicarmos?
 
-Blablabla
+Sim, pois se desde o princípio focarmos na criação de interfaces e, portanto, classes pouco acopladas, teremos um código de fácil manutenção, com chances reduzidas de erros que impeçam a execução do algoritmo.
 
 ### 10. Numa visão geral, considera que se começarmos pelos 4 primeiros princípios SOLID, fatalmente o DIP já estaria implementado?
 
-Sim, pois a implementação dos 4 primeiros princípios SOLID acabam por gerar algoritmos pouco acoplados, com um grande número de interfaces e classes concebidas a partir de um nível mais alto de abstração.
+Sim, pois a implementação dos 4 primeiros princípios SOLID acabam por gerar algoritmos pouco acoplados, com grande número de interfaces e classes concebidas a partir de um alto nível de abstração.
